@@ -4,7 +4,7 @@ This repository contains EFI files for OpenCore 0.6.7 for Ideapad S340-15IWL wit
 
 This is the main guide I follow: [OpenCore Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 
-Note: The commit description is inaccurate since all the files are uploaded at the same time.
+Note: The commit descriptions are inaccurate since all the files are uploaded at the same time.
 
 Note: This repo contains extra properties files added by Mac. (.DS_STORE, .\__filename_ etc)
 
@@ -14,7 +14,7 @@ Note: This repo contains extra properties files added by Mac. (.DS_STORE, .\__fi
 |-|-|
 |CPU| Intel i3-8145U (8th gen Whiskey Lake) |
 |GPU| Intel UHD Graphics 620|
-|Display| 15.6" 1366x768 |
+|Display| 15.6" HD 1366x768 |
 |Wifi| Intel Wireless AC9462|
 |Audio Codec| Realtek ALC257|
 |Memory| 4GB soldered + 4GB |
