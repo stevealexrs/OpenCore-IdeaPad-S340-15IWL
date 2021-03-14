@@ -1,24 +1,39 @@
 # OpenCore IdeaPad S340-15IWL
  
-### EFI files for OpenCore 0.6.7
+This repository contains EFI files for OpenCore 0.6.7 for Ideapad S340-15IWL with macOS Big Sur 11.2.3
 
-Specs
+## Specifications
 
+| | |
+|-|-|
+|CPU| Intel i3-8145U (8th gen Whiskey Lake) |
+|GPU| Intel UHD Graphics 620|
+|Display| 15.6" 1366x768 |
+|Wifi| Intel Wireless AC9462|
+|Audio Codec| Realtek ALC257|
+|Memory| 4GB soldered + 4GB |
+|Storage| 128GB SSD + 512GB SATA SSD|
+
+## Status
 
 | Features | Status |
 |----------|--------|
-| Battery  | Not working |
+| Battery  | Working |
+| Audio | Working |
+| Camera | Working |
+| Brightness Control | Working |
+| Sound | Working |
+| USB ports | Working |
+| Mouse | Working |
+| WiFi/Bluetooth | Mostly Working |
+| Keyboard | Mostly working |
+
 | Touchpad | Not working |
-| Keyboard | Mostly |
-| WiFi | Working |
-| 
+
 
 
 ## Peculiar Bugs
-Removing "-v keepsyms=1" fromm= boot-args in config.plist will cause startup failure. 
- 
-## Battery
-Not working due to missing SMCBatteryManager. It is omitted here because lack of an easy patching guide.
-Note: DO NOT use it without patching even though it may boot because it causes bugs like black screen after verbose boot.
+
+
 
 ## Touchpad
