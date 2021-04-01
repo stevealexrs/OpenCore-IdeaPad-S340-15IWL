@@ -55,6 +55,9 @@ The keyboard is working however the brightness control buttons are not working. 
 ### Touchpad
 According to device manager, my touchpad is Microsoft Precision Touchpad so VoodooI2C and VoodooI2CHID kexts with SSDT-GPIO theoretically make it work. However, it didnt work. This isn't worth fixing. Use a mouse instead. 
 
+### Minimum Brightness in Windows is brighter than Mac
+Not sure about the reason
+
 ## Dual Booting
 It is better to use different drives for each OS. I have 2 SSD drives with Windows on the first one. Make a >200MB FAT32 partition on the second drive with macOS. It will act as an EFI partition. DON'T mess with original Windows EFI partition at all or you will end up like me with everything in MAIN DISK *gone* because I deleted important Windows bootloader and stupidly thought that it will be recovered. Use a tool like [EasyUEFI](https://www.easyuefi.com/index-us.html) to edit boot entries and set the OpenCore bootloader partition as default bootloader. 
 
